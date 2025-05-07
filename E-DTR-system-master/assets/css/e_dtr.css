@@ -1,0 +1,38 @@
+/**
+ * Main DTR CSS file
+ * This file imports all module styles and defines common variables
+ */
+
+ :root {
+    --primary-color: #0d6efd;
+    --secondary-color: #f8f9fa;
+    --border-color: #dee2e6;
+    --hover-color: #f1f3f5;
+    --text-dark: #343a40;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+.container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    padding: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.page-header {
+    border-bottom: 2px solid var(--primary-color);
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+}
+
+/* Responsive styling */
+@media (max-width: 767.98px) {
+    .container {
+        padding: 1rem;
+    }
+}
